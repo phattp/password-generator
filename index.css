@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #0d1b2a;
+    color: #e0e1dd;
+}
+
+#container {
+    background-color: #1b263b;
+    width: 400px;
+    height: 400px;
+    margin: 40px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+button {
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: #778da9;
+    color: #e0e1dd;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #415a77;
+    cursor: pointer;
+}
+
+h1 {
+    margin: 40px 0 0 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 10px 0 0 0;
+    padding: 0;
+    color: #bde0fe;
+    font-size: 30px;
+}
+
+#desc-p {
+    margin: 20px 0 40px 0;
+    padding: 0;
+}
+
+hr {
+    border: 1px solid #778da9;
+}
+
+#password {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.password-p {
+    background-color: #415a77;
+    margin: 30px 20px 20px 0;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+    color: #e0e1dd;
+}
+
+.password-p:hover {
+    background-color: #324861;
+    cursor: pointer;
+}
